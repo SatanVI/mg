@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MG Événementiels</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Import des fonts sans doublons -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800|Quicksand:500,700|Dancing+Script:700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="main-nav" id="mainNav">
+    <img src="logo-mg.png" alt="Logo MG" class="logo-nav" />
+    <ul>
+      <li><a href="#catalogue">CATALOGUE</a></li>
+      <li><a href="#traiteurs">TRAITEURS</a></li>
+      <li><a href="#realisations">RÉALISATIONS</a></li>
+      <li><a href="#infos">INFOS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+  <header class="header-immersive" id="headerImmersive">
+    <div class="background-image"></div>
+    <div class="white-panel" id="whitePanel">
+      <div class="text-intro">
+        <h1>AU CŒUR DE LA GUINÉE – TRANSFORMEZ CHAQUE INSTANT EN SOUVENIR INOUBLIABLE</h1>
+        <button class="discover-btn">DÉCOUVRIR</button>
+      </div>
+    </div>
+  </header>
+  <main id="mainContent">
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Créez l'événement parfait avec MG Événementiels</h1>
+        <p>Location de matériel, services traiteur, organisation complète et décoration pour tous vos événements.</p>
+        <div class="hero-actions">
+          <a href="#location" class="btn">Voir le catalogue</a>
+          <a href="#contact" class="btn btn-light">Nous contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Nos services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Location de matériel</h3>
+          <p>Tables, chaises, tentes, chapiteaux, podiums, vaisselle et plus encore pour tous types d’événements.</p>
+        </article>
+        <article class="card">
+          <h3>Service traiteur</h3>
+          <p>Buffets, cocktails, menus personnalisés pour mariages, baptêmes, anniversaires et événements d'entreprise.</p>
+        </article>
+        <article class="card">
+          <h3>Organisation complète</h3>
+          <p>Accompagnement de A à Z : planification, coordination, logistique et gestion du jour J.</p>
+        </article>
+        <article class="card">
+          <h3>Décoration</h3>
+          <p>Ambiances sur mesure : florale, lumineuse, scénographie, pour sublimer votre événement.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="location" class="section section-alt">
+      <h2>Location de matériel</h2>
+      <div class="grid">
+        <div class="grid-item">
+          <h3>Tables & chaises</h3>
+          <p>Différents modèles, styles et capacités pour s’adapter à votre thème.</p>
+        </div>
+        <div class="grid-item">
+          <h3>Tentes & chapiteaux</h3>
+          <p>Structures adaptées aux mariages, foires, expositions et soirées privées.</p>
+        </div>
+        <div class="grid-item">
+          <h3>Décor & accessoires</h3>
+          <p>Housses, nappes, arches, éclairage, tapis, et autres éléments décoratifs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galerie" class="section">
+      <h2>Quelques réalisations</h2>
+      <div class="gallery">
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+      </div>
+      <p class="gallery-text">Mariages, réceptions, séminaires, cérémonies… MG Événementiels vous accompagne pour chaque moment important.</p>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <h2>Contact & devis</h2>
+      <div class="contact-layout">
+        <form id="contactForm" class="contact-form">
+          <div class="field-group">
+            <label for="name">Nom & prénom</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="field-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="field-group">
+            <label for="phone">Téléphone</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="field-group">
+            <label for="eventType">Type d’événement</label>
+            <input type="text" id="eventType" name="eventType" placeholder="Mariage, anniversaire, séminaire..." />
+          </div>
+          <div class="field-group">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer la demande</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-nav">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contactez-nous</h3>
+        <p>Téléphone : <a href="tel:00224622902641">00224 622 90 26 41</a></p>
+        <p>Email : <a href="mailto:mgevenementiels-guinee@outlook.com">mgevenementiels-guinee@outlook.com</a></p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="instagram.svg" class="social-icon" alt="Instagram"></a>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><img src="facebook.svg" class="social-icon" alt="Facebook"></a>
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><img src="tiktok.svg" class="social-icon" alt="TikTok"></a>
+        </div>
+      </div>
+      <div class="footer-brand">
+        <img src="logo-mg.png" class="footer-logo" alt="Logo MG Événementiels">
+        <div class="footer-brandname">MG <span>Événementiels</span></div>
+        <div class="footer-address">Lambagny Wariah, Conakry, Guinée</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 MG Événementiels – Tous droits réservés.</p>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
