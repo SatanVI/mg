@@ -1,20 +1,20 @@
 :root {
-  --primary: #ff8601;
-  --primary-dark: #e05900;
-  --bg: #fff8f2;
+  --primary: #2563eb;
+  --primary-dark: #1e40af;
+  --bg: #f3f4f6;
   --section: #ffffff;
-  --text: #202020;
-  --muted: #878787;
-  --header-border: #ffe2c3;
-  --accent: #ffb740;
-  --shadow: 0 8px 32px #ff860120;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --header-border: #dbeafe;
+  --accent: #06b6d4;
+  --shadow: 0 8px 32px #2563eb15;
   --radius: 32px;
 }
 
 /* Body */
 body {
   font-family: 'Quicksand', 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(120deg, #fff0db 60%, #fff8f2 100%);
+  background: linear-gradient(120deg, #f0f9ff 60%, #f3f4f6 100%);
   color: var(--text);
   font-size: 1.09rem;
   letter-spacing: 0.01em;
@@ -52,7 +52,7 @@ body {
   transition: background 0.16s, color 0.16s;
 }
 .main-nav ul li a:hover {
-  background: #fff3e4;
+  background: #dbeafe;
   color: var(--primary-dark);
 }
 
@@ -139,7 +139,7 @@ body {
   margin-bottom: 33px;
 }
 .section-alt {
-  background: #fff0db;
+  background: #f0f9ff;
   margin-bottom: 29px;
   border-radius: var(--radius);
   box-shadow: 0 10px 28px var(--accent);
@@ -160,7 +160,7 @@ body {
   gap: 30px;
 }
 .card {
-  background: linear-gradient(103deg, #fff7ed 80%, var(--accent) 100%);
+  background: linear-gradient(103deg, #f0f9ff 80%, var(--accent) 100%);
   border-radius: var(--radius);
   padding: 32px 24px 24px 24px;
   box-shadow: 0 8px 27px var(--primary);
@@ -205,7 +205,7 @@ body {
   gap: 28px;
 }
 .grid-item {
-  background: #fff8f2;
+  background: #f3f4f6;
   border-radius: var(--radius);
   padding: 28px;
   border: none;
@@ -262,7 +262,7 @@ body {
   align-items: flex-start;
 }
 .contact-form {
-  background: #fff0db;
+  background: #f0f9ff;
   padding: 28px 22px;
   border-radius: var(--radius);
   box-shadow: 0 7px 27px var(--primary);
@@ -347,7 +347,7 @@ body {
   margin-bottom: 10px;
 }
 .footer-nav ul li a {
-  color: #ffc48d;
+  color: #7dd3fc;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -395,7 +395,7 @@ body {
 }
 .footer-address {
   font-size: 0.97rem;
-  color: #ffeaa5;
+  color: #bfdbfe;
   font-weight: 400;
 }
 .footer-bottom {
